@@ -59,10 +59,10 @@ function randomNumber(totalelements) {
 
 /**
  * Adiciona dados no localStorage
- * @param data - dados a ser salvo no localStorage
+ * @parsm data - dados a ser salvo no localStorage
  */
 function setStorage(data) {
-    localStorage.setItem('shuffle', JSON.stringify(data));
+	localStorage.setItem('shuffle', JSON.stringify(data));
 }
 
 /**
@@ -70,6 +70,7 @@ function setStorage(data) {
  * @return object
  */
 function getStorage() {
+		console.log('localstorage get' + localStorage.getItem('shuffle'));
     return JSON.parse(localStorage.getItem('shuffle'));
 }
 
@@ -102,6 +103,7 @@ function setPoetry(data, id) {
 
         for (let i = 0; i < total;) {
             let key = randomNumber(total);
+						console.log("key " + total);
 
             if (!shuffle[key]) {
                 shuffle[key] = i;
