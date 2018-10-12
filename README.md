@@ -1,15 +1,15 @@
-# Filosofunk [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+# Filosorap [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 Lindas frases para aquecer os corações
 
 ![Screenshot](img/screenshot.PNG?raw=true "Screenshot")
 
-Para ver o projeto rodando: http://filosofunk.com.br/
+Para ver o projeto rodando: http://filosorap.com.br/
 
 ## O que é isto?
-Projeto feito nas horas vagas sem auxílio de bibliotecas e frameworks, utilizando apenas Vanilla JS, HTML e CSS, com o intuito de juntar frases engraçadas, divertidas, filosóficas ou criativas de músicas de funk.
+Projeto feito nas horas vagas sem auxílio de bibliotecas e frameworks, utilizando apenas Vanilla JS, HTML e CSS, com o intuito de juntar punchlines divertidas, filosóficas ou criativas de músicas de rap.
 
 ## Como sugerir novas frases?
-As frases estão armazenadas no arquivo [poesias.json](https://github.com/IgorRozani/filosofunk/blob/master/poesias.json), adicione as novas frases no final do arquivo, utilizando a seguinte estrutura: 
+As frases estão armazenadas no arquivo [poesias.json](https://github.com/IgorRozani/filosorap/blob/master/poesias.json), adicione as novas frases no final do arquivo, utilizando a seguinte estrutura: 
 
 ```JSON
 {
