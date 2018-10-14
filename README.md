@@ -1,7 +1,7 @@
 # Filosorap [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 Lindas frases para aquecer os corações
 
-![Screenshot](img/screenshot.PNG?raw=true "Screenshot")
+![Screenshot](img/screenshot.png?raw=true "Screenshot")
 
 Para ver o projeto rodando: http://filosorap.com.br/
 
