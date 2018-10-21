@@ -385,6 +385,65 @@ input.inputs {
   }
 }
 
+@media screen and (max-width: 720px) {
+  div.div-img-rapper {
+    display: none;
+  }
+
+  p.poeta {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .container div.button-group {
+    display: grid;
+  }
+
+  div.div-declamar-button, div.div-player {
+    width: 100%;
+    text-align: center;
+    margin: 5px;
+  }
+
+  a.declare-button {
+    background-color: #373767;
+    color: #fff8b6;
+  }
+
+  .balao {
+    position: relative;
+    margin: 10px 10px 0 10px;
+    background-color: #dde3ff;
+    border-radius: 15px;
+  }
+
+  p.help-us {
+    margin: 0;
+    text-align: center;
+    font-size: 1.1em;
+    width: 100%;
+    color: #fff;
+    background: #514785;
+    border-radius: 5px 5px 0 0;
+    cursor: pointer;
+  }
+
+  #send-punch {
+    width: 100%;
+    margin: -260px 0 0 0;
+    background: #e6e3e3;
+  }
+}
+
+@media(min-width:750px) {
+	.container .button-group a {
+		width:250px;
+		text-align: center;
+		background-color: #373767;
+		color: #fff8b6;
+		padding: 2px 4px 0 3px;
+	}
+}
 @media(min-width:750px) {
 	.container .button-group a {
 		width:250px;
