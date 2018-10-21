@@ -145,12 +145,15 @@ p.help-us i{
 .div-player {
 	text-align: right;
 	width: 50%;
-	margin-right: 132px;
+	margin-right: 140px;
 }
 
 .div-img-rapper {
+	position: absolute;
 	margin-left: 40px;
-	width: 219px;
+	width: 0;
+	left: -18px;
+	top: 260px;
 }
 
 .div-img-rapper img {
@@ -163,7 +166,8 @@ p.help-us i{
 
 .div-declamar-button {
 	text-align: left;
-	width:50%;
+	width:30%;
+	margin-left: 240px;
 }
 
 div.share-text p{
@@ -358,7 +362,7 @@ input.inputs {
 
   .balao {
     position: relative;
-    margin: 20px 10px 0 10px;
+    margin: 10px 10px 0 10px;
     background-color: #dde3ff;
     border-radius: 15px;
   }
@@ -394,9 +398,9 @@ input.inputs {
 @media(min-width: 1238px) {
 	.balao {
 		position: relative;
-		margin-left: 132px;
-		margin-right: 132px;
-		margin-top: 20px;
+		margin-left: 142px;
+		margin-right: 142px;
+		margin-top: 10px;
 		background-color: #dde3ff;
 		border-radius: 15px;
 	}
