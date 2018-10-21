@@ -104,9 +104,24 @@
 			</li>
 			</ul>
 		</div>
-
-		<p class="help-us">Contribua com uma Punch line <a href="#" target="_blank"></a></p>
+		<div id="send-punch" class="close">
+	    <div onclick="toggleClass()" class="form-header" title="">
+	        <h5 class="">Contribua com uma Punch line <i class="fas fa-comment"></i></h5>
+	    </div>
+	    <form id="form-punch" method="POST">
+	        <input placeholder="Informe seu nome" class="inputs" id="nome" name="nome" required="required" type="text" value="">
+	        <input placeholder="Informe seu e-mail" class="inputs" id="email" name="email" required="required" type="email" value="">
+	        <textarea class="" id="punch-line" name="punch-line" required="required" rows="4" value=""placeholder="Escreva sua punch line" maxlength="300"></textarea>
+          <div id="submit-form-punch">
+              <button type="submit" id="send" class="btn-send">Enviar</button>
+          </div>
+	    </form>
+		</div>
+		<p onclick="toggleClass()" id="help"class="help-us">
+			Contribua com uma Punch line <i class="fas fa-comment"></i>
+		</p>
 	</div>
 	<script src="./js/social.js"></script>
+	<script src="./js/mail.js"></script>
 </body>
 </html>

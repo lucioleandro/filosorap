@@ -171,11 +171,11 @@ function declarePoetry() {
     if (!storage || !storage.length) {
         window.location.reload();
     };
-  
+
     let index = getIndex(storage);
     poetry = poetryCollection[index];
     exibirPoesia(index);
-  
+
     setStorage(storage);
 }
 
@@ -208,4 +208,18 @@ function playYoutube() {
 function VisibilityAudioButtons() {
     document.getElementById('btn-stop').disabled = !isPlayEnabled;
     document.getElementById('btn-play').disabled = isPlayEnabled;
+}
+
+function toggleClass(){
+  eraseForm();
+  let formContribuir = document.getElementById("send-punch");
+  let btnContribuir =  document.getElementById("help");
+  formContribuir.classList.toggle("close");
+  btnContribuir.classList.toggle("close");
+}
+
+function eraseForm() {
+  document.getElementById("nome").value = "";
+  document.getElementById("email").value = "";
+  document.getElementById("punch-line").value = "";
 }

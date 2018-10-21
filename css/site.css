@@ -1,26 +1,26 @@
 @import url('https://fonts.googleapis.com/css?family=Luckiest+Guy|Monoton|Raleway:100i,400');
 
 body {
-    background-color: #fff;
-    background-size: 100% 1.2em;
-    font-family: 'Indie Flower', cursive;
-    font-style: italic;
-    margin: 0;
-    padding: 0;
-    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(255,255,255,1));
+  background-color: #fff;
+  background-size: 100% 1.2em;
+  font-family: 'Indie Flower', cursive;
+  font-style: italic;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(255,255,255,1));
 }
 
 header{
-    text-align: center;
+  text-align: center;
 }
 
 .topo {
   margin-top: 0;
-    padding-top: 1px;
-    padding-bottom: 0.8px;
-    background-color: black;
-    border-bottom: 5px solid;
-    border-color: #615d7b;
+  padding-top: 1px;
+  padding-bottom: 0.8px;
+  background-color: black;
+  border-bottom: 5px solid;
+  border-color: #615d7b;
 }
 
 .topo img {
@@ -29,44 +29,41 @@ header{
 }
 
 header h1 {
-    font-family: 'Indie Flower', cursive;
-    font-size: 50px;
-    padding: 0px;x
-    margin: 0px;
-    color:rgb(60, 53, 53);
+  font-family: 'Indie Flower', cursive;
+  font-size: 50px;
+  padding: 0px;x
+  margin: 0px;
+  color:rgb(60, 53, 53);
 }
 
 blockquote {
-    font-size: 35px;
-    line-height: 60px;
-    padding-left: 20px;
-    padding-right: 20px;
-    font-weight: bold;
-    text-align: center;
-    margin-top: 5px;
-    margin-bottom: 0px;
+  font-size: 35px;
+  line-height: 60px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 0px;
 }
-
 
 a {
-    color: rgb(70,81,206);
-    text-decoration: none;
-}
-
-
-.container .button-group {
-    display: flex;
-    justify-content: center;
+  color: rgb(70,81,206);
+  text-decoration: none;
 }
 
 .container .button-group {
-    text-align: right;
+  display: flex;
+  justify-content: center;
 }
 
 .container .button-group {
-    width: 100%;
+  text-align: right;
 }
 
+.container .button-group {
+  width: 100%;
+}
 
 .container .button-group a {
 	width:250px;
@@ -74,51 +71,61 @@ a {
 }
 
 .audio {
-    display: none;
+  display: none;
 }
 
 .container {
-    position: relative;
+  position: relative;
 }
 
 p.titulo {
-    font-size: 25px;
-    text-align: center;
+  font-size: 25px;
+  text-align: center;
 }
 
 p.poeta {
-    padding-left: 80px;
-    margin-right: 100px;
-    margin-top: 15px;
-    font-size: 30px;
-    text-align: right;
+  padding-left: 80px;
+  margin-right: 100px;
+  margin-top: 15px;
+  font-size: 30px;
+  text-align: right;
 }
 
 p.help-us {
-    text-align: center;
-    font-size: 25px;
+  margin: -15px 131px 0 0;
+  text-align: center;
+  font-size: 1.1em;
+  width: 17%;
+  float: right;
+  color: #fff;
+  background: #514785;
+  border-radius: 5px 5px 0 0;
+  padding: 5px;
+  cursor: pointer;
+}
+
+p.help-us i{
+  width: 7px;
 }
 
 .button {
-
-    background-color: transparent;
-    border: none;
-    font-weight: bold;
-    text-align: left;
-    display: inline-block;
-    font-size: 25px;
+  background-color: transparent;
+  border: none;
+  font-weight: bold;
+  text-align: left;
+  display: inline-block;
+  font-size: 25px;
 }
 
 .share {
-    margin-top:20px;
-    width: 100%;
-    text-align: center;
-    display: flex;
-    justify-content: center;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 .share .item {
-    padding: 10px;
+  padding: 10px;
 }
 
 .share .item a {
@@ -126,13 +133,13 @@ p.help-us {
 }
 
 .mascote {
-    opacity:0.2;
-    position:absolute;
-    right:0;
-    bottom:0;
-    max-height: 60%;
-    max-width: 60%;
-    z-index: -1;
+  opacity:0.2;
+  position:absolute;
+  right:0;
+  bottom:0;
+  max-height: 60%;
+  max-width: 60%;
+  z-index: -1;
 }
 
 .div-player {
@@ -168,6 +175,7 @@ div.share ul {
   padding: 0;
   margin-left: 10px;
   text-align: center;
+  margin-top: 0;
 }
 
 .btn {
@@ -185,8 +193,8 @@ div.share ul {
   font-size: 1rem;
   line-height: 1.5;
   border-radius: 0.25rem;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+  border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
 .btn-danger {
@@ -219,14 +227,16 @@ div.share ul {
   cursor: pointer;
 }
 
-.btn-danger:not(:disabled):not(.disabled):active, .btn-danger:not(:disabled):not(.disabled).active,
+.btn-danger:not(:disabled):not(.disabled):active,
+ .btn-danger:not(:disabled):not(.disabled).active,
 .show > .btn-danger.dropdown-toggle {
   color: #fff;
   background-color: #bd2130;
   border-color: #b21f2d;
 }
 
-.btn-danger:not(:disabled):not(.disabled):active:focus, .btn-danger:not(:disabled):not(.disabled).active:focus,
+.btn-danger:not(:disabled):not(.disabled):active:focus,
+ .btn-danger:not(:disabled):not(.disabled).active:focus,
 .show > .btn-danger.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.5);
 }
@@ -249,8 +259,76 @@ i {
 .facebook {
 	background-image: url(../img/icones/facebook-box.png);
 }
+
 .twitter {
 	background-image: url(../img/icones/twitter.png);
+}
+
+#send-punch {
+  border-left: 1px solid #514785;
+  border-right: 1px solid #514785;
+  width: 17%;
+  margin: -260px 131px 0 0;
+  text-align: center;
+  font-size: 1.1em;
+  float: right;
+  position: relative;
+  border-radius: 5px;
+}
+
+.close {
+  display: none;
+  transition-property: all;
+  transition-duration: 1s;
+  transition-delay: 0s;
+  transition-timing-function: linear;
+}
+
+div.form-header {
+  background: #514785;
+  color: #fff;
+  height: 40px;
+  cursor: pointer;
+  display: grid;
+  border-radius: 5px;
+}
+
+div.form-header h5 {
+  text-align: center;
+  margin: 10px 0 0 0;
+  padding: 0;
+}
+
+div.form-header h5 i {
+  width: 7px;
+}
+
+input.inputs {
+  width: 90%;
+  margin: 10px 0;
+  height: 20px;
+}
+
+#punch-line {
+  width: 90%;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+.btn-send {
+  color: #fff;
+  width: 35%;
+  height: 35px;
+  background: #514785;
+  font-family: 'Indie Flower', cursive;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+}
+#submit-form-punch {
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 @media screen and (max-width: 480px) {
@@ -273,16 +351,37 @@ i {
     margin: 5px;
   }
 
+  a.declare-button {
+    background-color: #373767;
+    color: #fff8b6;
+  }
+
   .balao {
     position: relative;
     margin: 20px 10px 0 10px;
     background-color: #dde3ff;
     border-radius: 15px;
   }
+
+  p.help-us {
+    margin: 0;
+    text-align: center;
+    font-size: 1.1em;
+    width: 100%;
+    color: #fff;
+    background: #514785;
+    border-radius: 5px 5px 0 0;
+    cursor: pointer;
+  }
+
+  #send-punch {
+    width: 100%;
+    margin: -260px 0 0 0;
+    background: #e6e3e3;
+  }
 }
 
 @media(min-width:750px) {
-
 	.container .button-group a {
 		width:250px;
 		text-align: center;
