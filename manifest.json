@@ -3,24 +3,24 @@
     "name": "Filosorap",
     "icons": [
       {
-        "src": "img/mascote-og-48x48.png",
+        "src": "img/Logo.png",
         "type": "image/png",
         "sizes": "48x48"
       },
       {
-        "src": "img/mascote-og-96x96.png",
+        "src": "img/Logo.png",
         "type": "image/png",
         "sizes": "96x96"
       },
       {
-        "src": "img/mascote-og-192x192.png",
+        "src": "img/Logo.png",
         "type": "image/png",
         "sizes": "192x192"
       }
     ],
     "start_url": "/",
     "display": "standalone",
-    "description":"Lindas frases para aquecer os corações",
+    "description":"Lírica e punch lines para aquecer a alma",
     "theme_color": "#ffffff",
     "background_color": "#ffffff",
     "scope": "/"
