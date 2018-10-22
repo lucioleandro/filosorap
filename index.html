@@ -64,62 +64,70 @@
 	<iframe class="audio" width="0" height="0" id="musica" src="" frameborder="0" allow="autoplay; encrypted-media"></iframe>
 
 	<div class="container">
-		<div class="balao">
-			<p class="titulo">Trecho de "<span id="poesia"></span>"</p>
-			<blockquote id="estrofe"></blockquote>
-			<p class="poeta" id="poeta"></p>
-		</div>
-
-		<div class="button-group">
-			<div class="div-img-rapper">
-				<img src="./img/rapper.png">
-			</div>
-			<div class="div-declamar-button">
-				<a href="#" class="declare-button button">Declamar outra Lírica</a>
+		<main>
+			<div class="balao">
+				<p class="titulo">Trecho de "<cite><span id="poesia"></span><cite>"</p>
+				<blockquote id="estrofe"></blockquote>
+				<p class="poeta" id="poeta"></p>
 			</div>
 
-			<div class="div-player">
-				<button id="btn-play" class="btn btn-danger" disabled>
-					<i class="fa fa-play"></i>
-				</button>
-				<button id="btn-stop" class="btn btn-danger">
-					<i class="fa fa-stop"></i>
-				</button>
+			<div class="button-group">
+				<div class="div-img-rapper">
+					<figure>
+							<img src="./img/rapper.png" alt="filosorap rapper">
+					</figure>
+					<menu>
+					</div>
+						<div class="div-declamar-button">
+							<a href="#" class="declare-button button">Declamar outra Lírica</a>
+						</div>
+					<div class="div-player">
+						<button id="btn-play" class="btn btn-danger" disabled>
+							<i class="fa fa-play"></i>
+						</button>
+						<button id="btn-stop" class="btn btn-danger">
+							<i class="fa fa-stop"></i>
+						</button>
+					</div>
+					</menu>
 			</div>
-		</div>
-		<div class="share-text">
-			<p>Compartilhe nas redes sociais!</p>
-		</div>
-		<div class="share">
-			<ul class="icones-redes-sociais">
-				<li>
-					<button id="botaoTwitter" class="btn">
-						<i class="fab fa-twitter"></i>
+		</main>
+		<aside>
+			<div class="share-text">
+				<p>Compartilhe nas redes sociais!</p>
+			</div>
+			<div class="share">
+				<ul class="icones-redes-sociais">
+					<li>
+						<button id="botaoTwitter" class="btn">
+							<i class="fab fa-twitter"></i>
+						</button>
+					</li>
+					<li>
+						<button id="botaoFacebook" class="btn">
+							<i class="fab fa-facebook"></i>
 					</button>
 				</li>
-				<li>
-					<button id="botaoFacebook" class="btn">
-						<i class="fab fa-facebook"></i>
-				</button>
-			</li>
-			</ul>
-		</div>
-		<div id="send-punch" class="close">
-	    <div onclick="toggleClass()" class="form-header" title="">
-	        <h5 class="">Contribua com uma Punch line <i class="fas fa-comment"></i></h5>
-	    </div>
-	    <form id="form-punch" method="POST">
-	        <input placeholder="Informe seu nome" class="inputs" id="nome" name="nome" required="required" type="text" value="">
-	        <input placeholder="Informe seu e-mail" class="inputs" id="email" name="email" required="required" type="email" value="">
-	        <textarea class="" id="punch-line" name="punch-line" required="required" rows="4" value=""placeholder="Escreva sua punch line" maxlength="300"></textarea>
-          <div id="submit-form-punch">
-              <button type="submit" id="send" class="btn-send">Enviar</button>
-          </div>
-	    </form>
-		</div>
-		<p onclick="toggleClass()" id="help"class="help-us">
-			Contribua com uma Punch line <i class="fas fa-comment"></i>
-		</p>
+				</ul>
+			</div>
+			<div id="send-punch" class="close">
+				<div onclick="toggleClass()" class="form-header" title="">
+						<h5 class="">Contribua com uma Punch line <i class="fas fa-comment"></i></h5>
+				</div>
+				<form id="form-punch" method="POST">
+						<input placeholder="Informe seu nome" class="inputs" id="nome" name="nome" required="required" type="text" value="">
+						<input placeholder="Informe seu e-mail" class="inputs" id="email" name="email" required="required" type="email" value="">
+						<textarea class="" id="punch-line" name="punch-line" required="required" rows="4" value=""placeholder="Escreva sua punch line" maxlength="300"></textarea>
+						<div id="submit-form-punch">
+								<button type="submit" id="send" class="btn-send">Enviar</button>
+						</div>
+				</form>
+			</div>
+			<p onclick="toggleClass()" id="help"class="help-us">
+				Contribua com uma Punch line <i class="fas fa-comment"></i>
+			</p>
+		</aside>
+
 	</div>
 	<script src="./js/social.js"></script>
 	<script src="./js/mail.js"></script>
