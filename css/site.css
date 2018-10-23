@@ -30,6 +30,10 @@ header{
   height: 144px;
 }
 
+.topo h1, .btn p {
+	font-size: 0;
+}
+
 header h1 {
   font-family: 'Indie Flower', cursive;
   font-size: 50px;
