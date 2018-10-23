@@ -30,16 +30,12 @@ header{
   height: 144px;
 }
 
-.topo h1, .btn p {
-	font-size: 0;
-}
+
 
 header h1 {
-  font-family: 'Indie Flower', cursive;
-  font-size: 50px;
-  padding: 0px;x
+  font-size: 0px;
+  padding: 0px;
   margin: 0px;
-  color:rgb(60, 53, 53);
 }
 
 blockquote {
@@ -205,6 +201,10 @@ div.share ul {
   border-radius: 0.25rem;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
   border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.btn p {
+	font-size: 0;
 }
 
 .btn-danger {
