@@ -18,6 +18,10 @@ header{
   text-align: center;
 }
 
+aside {
+	margin-bottom: 80px;
+}
+
 .topo {
   margin-top: 0;
   padding-top: 1px;
