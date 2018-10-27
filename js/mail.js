@@ -13,7 +13,7 @@ function js_send() {
     var request = new XMLHttpRequest();
     request.onreadystatechange = function() {
         if (request.readyState == 4 && request.status == 200) {
-            alert("Contribuição foi enviada, analisaremos e se essa punch line" +
+            alert("Sua contribuição foi enviada, analisaremos e se essa punch line" +
             " for pesadissima irar entrar em nosso arquivo.");
             location.reload();
         } else
