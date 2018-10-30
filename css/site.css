@@ -369,6 +369,7 @@ input.inputs {
 	  text-align: center;
 	  margin-top: 0;
 	  margin-bottom: 0;
+		width: 93%;
 	}
 
 	.topo {
@@ -381,8 +382,8 @@ input.inputs {
 	}
 
 	.topo img {
-	  width: 215px;
-	  height: 112px;
+	  width: 200px;
+	  height: 104px;
 	}
 
 
