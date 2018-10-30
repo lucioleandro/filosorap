@@ -23,8 +23,7 @@ function montaLink(social) {
 	let poeta = document.getElementById("poeta").textContent;
 	let alink = ""
 	if(social === "facebook") {
-		alink = "https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2F"+url+
-		"&quote="+poesia+"%0A - "+poeta+"%0A%0A";
+		alink = "https://www.facebook.com/sharer/sharer.php?u="+url+"&quote="+poesia+"%0A - "+poeta+"%0A%0A";
 	} else  if(social === "twitter") {
 		alink = "https://twitter.com/intent/tweet?text="+poesia+"%0A - "+poeta+"%0A%0A"+url;
 	} else if(social === "whatsapp") {
