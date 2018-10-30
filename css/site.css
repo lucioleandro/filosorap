@@ -359,7 +359,7 @@ input.inputs {
   margin-bottom: 5px;
 }
 
-@media screen and (max-width: 1080px) {
+@media(max-width: 1080px) {
 	blockquote {
 	  font-size: 22px;
 	  line-height: 60px;
