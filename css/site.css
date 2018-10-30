@@ -362,13 +362,27 @@ input.inputs {
 @media(max-width: 1080px) {
 	blockquote {
 	  font-size: 22px;
-	  line-height: 50px;
-	  padding-left: 15px;
-	  padding-right: 15px;
+	  line-height: 28px;
+	  padding-left: 0;
+	  padding-right: 0;
 	  font-weight: bold;
 	  text-align: center;
-	  margin-top: 3px;
-	  margin-bottom: 0px;
+	  margin-top: 0;
+	  margin-bottom: 0;
+	}
+
+	.topo {
+	  margin-top: 0;
+	  padding-top: 1px;
+	  padding-bottom: 0.8px;
+	  background-color: black;
+	  border-bottom: 3px solid;
+	  border-color: #615d7b;
+	}
+
+	.topo img {
+	  width: 215px;
+	  height: 112px;
 	}
 
   div.div-img-rapper {
