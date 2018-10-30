@@ -385,12 +385,13 @@ input.inputs {
 	  height: 112px;
 	}
 
+
   div.div-img-rapper {
     display: none;
   }
 
-  p.poeta {
-    font-size: 30px;
+  p.poeta, p.titulo {
+    font-size: 22px;
     text-align: center;
   }
 
