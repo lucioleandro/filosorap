@@ -461,7 +461,7 @@ input.inputs {
 		border-radius: 15px;
 	}
 
-	.balao:after, .balao:before {
+	.balao:after {
 		top: 100%;
 		left: 5%;
 		border: solid transparent;
@@ -475,14 +475,10 @@ input.inputs {
 	.balao:after {
 		border-color: rgba(136, 183, 213, 0);
 		border-top-color: #dde3ff;
-		border-width: 30px;
+		border-top-width: 36px;
+   	border-right-width: 36px;
+   	border-bottom-width: 36px;
+   	border-left-width: 10px;
 		margin-left: -30px;
-	}
-
-	.balao:before {
-		border-color: rgba(194, 225, 245, 0);
-		border-top-color: #dde3ff;
-		border-width: 36px;
-		margin-left: -36px;
 	}
 }
