@@ -3,7 +3,7 @@ Lindas frases para aquecer os corações
 
 ![Screenshot](img/screenshot.png?raw=true "Screenshot")
 
-Para ver o projeto rodando: http://filosorap.com.br/
+Para ver o projeto rodando: https://filosorap.com.br/
 
 ## O que é isto?
 Projeto feito nas horas vagas sem auxílio de bibliotecas e frameworks, utilizando apenas Vanilla JS, HTML e CSS, com o intuito de juntar punchlines divertidas, filosóficas ou criativas de músicas de rap.
