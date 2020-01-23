@@ -20,4 +20,6 @@ Projeto feito nas horas vagas sem auxílio de bibliotecas e frameworks, utilizan
 ```
 
 ## Agradecimentos
-Muito obrigado pela ajuda de Nilda Ramos e....
+Muito obrigado a Nilda Ramos pelo desing e todas as artes do site.<br>
+Intagram: [@luliartes](https://www.instagram.com/luliartes/)<br>
+Site: [https://vitrine.elo7.com.br/luliartes](https://vitrine.elo7.com.br/luliartes)
